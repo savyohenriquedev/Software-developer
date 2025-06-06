@@ -8,7 +8,7 @@ class CalculatorApp:
     def __init__(self, root):
         # Aqui guardo a janela principal do Tkinter. É tipo a "casa" onde tudo vai acontecer.
         self.root = root
-        self.root.title("Mega Calculadora do Savyo Rocha")
+        self.root.title("Mega Calculadora - Savyo Rocha")
         self.root.geometry("500x500")  # Tamanho da janela, pra ficar bonitinha e funcional.
 
         # Lista pra armazenar o histórico das operações (o que fiz e o resultado).
